@@ -1,7 +1,6 @@
 # gTrendsR - Operation Research
 
 #Google Trends using gTrends Library
-https://cran.r-project.org/web/packages/Rcpp/index.html
 
 Libraries that neeed to be installed
 
