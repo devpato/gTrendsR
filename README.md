@@ -1,4 +1,4 @@
-# gTrendsR
+# gTrendsR - Operation Research
 
 #Google Trends using gTrends Library
 https://cran.r-project.org/web/packages/Rcpp/index.html
