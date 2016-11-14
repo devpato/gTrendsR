@@ -21,3 +21,5 @@ If you get the RCPP error perform the following steps:
 If you get the XML error perfom the following steps:
 
   install.packages("XML")
+  
+  #Stock Market - Retrive data from Yahoo Finance for stock market
