@@ -23,9 +23,13 @@ If you get the XML error perfom the following steps:
   install.packages("XML")
   
 #Stock Market - Retrive data from Yahoo Finance for stock market
+
   library(ggplot2)
+  
   library(xts)
+  
   library(dygraphs)
+  
 
   # Get data from Yahoo Finance
   
