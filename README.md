@@ -22,4 +22,10 @@ If you get the XML error perfom the following steps:
 
   install.packages("XML")
   
-  #Stock Market - Retrive data from Yahoo Finance for stock market
+#Stock Market - Retrive data from Yahoo Finance for stock market
+  library(ggplot2)
+  library(xts)
+  library(dygraphs)
+
+  # Get data from Yahoo Finance
+  company_url <- "http://real-chart.finance.yahoo.com/table.csv?s=MSFT&a=01&b=24&c=2015&d=07&e=24&f=2016&g=d&ignore=.csv"
