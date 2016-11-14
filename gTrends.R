@@ -8,8 +8,8 @@ require(ggplot2)
 require(gridExtra)
 #install XML package
 library(gtrendsR)
-usr <- "wearetamo@gmail.com"  # alternatively store as options() or env.var
-psw <- "Policia92"        # idem
+usr <- "username for google"  # alternatively store as options() or env.var
+psw <- "password for google"        # idem
 gconnect(usr, psw)       # stores handle in environment
 company <- gtrends(c("Microsoft",geo = c("US")), start_date = "2014-01-01", end_date = "2016-11-01")
 plot(company)        # data set also included in package
