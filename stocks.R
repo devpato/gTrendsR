@@ -14,12 +14,12 @@ yahoo.read <- function(url)
   return(df)
 }
 
-ibm  <- yahoo.read(company_url)
+company  <- yahoo.read(company_url)
 
-ggplot(ibm,aes(Date,Close)) + 
+ggplot(company,aes(Date,Close)) + 
   geom_line(aes(color="Microsoft")) +
     labs(color="Legend") +
-  scale_colour_manual("", breaks = c("Microsoft"),
-                      values = c("blue")) +
-  ggtitle("Closing Stock Prices: Microsoft") + 
-  theme(plot.title = element_text(lineheight=.7, face="bold"))
+      scale_colour_manual("", breaks = c("Microsoft"),
+        values = c("blue")) +
+          ggtitle("Closing Stock Prices: Microsoft") + 
+              theme(plot.title = element_text(lineheight=.7, face="bold"))
