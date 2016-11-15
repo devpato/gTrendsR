@@ -21,3 +21,34 @@ If you get the RCPP error perform the following steps:
 If you get the XML error perfom the following steps:
 
   install.packages("XML")
+  
+#Stock Market - Retrive data from Yahoo Finance for stock market
+
+  library(ggplot2)
+  
+  library(xts)
+  
+  library(dygraphs)
+  
+
+  # Get data from Yahoo Finance
+  
+  company_url <- "http://real-chart.finance.yahoo.com/table.csv?s=MSFT&a=01&b=24&c=2015&d=07&e=24&f=2016&g=d&ignore=.csv"
+  
+  Variables meanings:
+  
+  s=MSFT (Stands for the code that Microsoft uses in the stock market)
+  
+  a=01 (Starting month)
+  
+  b=24 (Starting date)
+  
+  c=2015 (Starting year)
+  
+  d=07(Ending month)
+  
+  e=24 (Ending month)
+  
+  f=2016 (Ending year)
+  
+  g=d (Daily)
