@@ -2,7 +2,7 @@
 
 #Google Trends using gTrends Library
 
-Libraries that neeed to be installed
+Libraries that need to be installed
 
   install.packages("gtrendsR")
   
